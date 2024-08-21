@@ -26,10 +26,13 @@ img{
     display: flex;
     gap: 2rem;
     font-size: 3rem;
+    
 }
 
 .fa-instagram{
     color: rgb(247, 77, 244);
+    
+    
 }
 
 .fa-facebook{
