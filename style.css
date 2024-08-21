@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: lightgray;
+}
+
+.top{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    gap: 1rem;
+}
+
+img{
+    width: 7rem;
+    border-radius: 2rem;
+}
+
+.icons{
+    display: flex;
+    gap: 2rem;
+    font-size: 3rem;
+}
+
+.fa-instagram{
+    color: rgb(247, 77, 244);
+}
+
+.fa-facebook{
+    color: blue;
+}
+
+.fa-twitch{
+    color: rgb(153, 25, 232);
+}
+
+.fa-youtube{
+    color: red;
+}
+
+.fa-whatsapp{
+    color: green;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    width: 20rem ;
+    height: 3rem;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 1rem;
+    box-shadow: rgba(1, 1, 1, 1);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+    color: yellow; /* Cambia el color del texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra */
+}
+
+button i{
+    width: 20%;
+}
+
+button p {
+    width: 80%;
+    font-size: 1.5rem;
+}
